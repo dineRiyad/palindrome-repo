@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0a0a23;
+  color: #f0ffff;
+  min-width: 350px;
+}
+
+.palindrome-checker {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  row-gap: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 1.5rem 1rem;
+}
+
+.box {
+  width: min(75%, 450px);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+
+.container {
+  background-color: #fff;
+  color: #0a0a23;
+  box-shadow: 0px 5px 5px 3px #0c2377;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+.container input,
+.container button {
+  font: inherit;
+}
+
+.palindrome-input {
+  border: none;
+  border-bottom: 2px solid #0c2377;
+  height: 2rem;
+  margin-top: 2rem;
+  min-width: 70%;
+}
+
+.palindrome-button {
+  height: 2.5rem;
+  padding: 0 2rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #0c2377;
+  color: #f0ffff;
+}
+
+.result {
+  display: none;
+  background-color: #dfe5fc;
+  margin-top: 1rem;
+  border-radius: 0.3rem 1rem;
+  padding: 0.5rem;
+  color: #0a0a23;
+}
+
+.result p {
+  margin-bottom: 0.5rem;
+}
+
+.result-value {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.blue {
+  fill: #2269a8;
+}
+
+.red {
+  fill: #a92121;
+}
+
+.tip-container {
+  background-color: #442b91;
+}
+
+.gold-light {
+  fill: #ffd700;
+  border-bottom: 3px double #ffd700;
+  margin-bottom: 0.2rem;
+  width: 95%;
+}
+
+.tip-container span {
+  display: block;
+}
